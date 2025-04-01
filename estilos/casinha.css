@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+}
+.containerC{
+    margin-top: 70px;
+    display:flex;
+}
+.casinha{
+    width: 50%;
+    background: url(../img/casinha/casinha.hz.png);
+    background-size: 110%;
+    background-attachment: fixed;
+    background-position-x: 325%;
+    background-position-y: 20%;
+}
+.infos{
+    width: 50%;
+}
+.imgs div{
+    aspect-ratio: 5/7;
+    background-size: cover;
+}
+.img1{
+    background-image: url(../img/casinha/corpo.png);
+}
+.img2{
+    background-image: url(../img/casinha/telhado.png);
+}
+.img3{
+    background-image: url(../img/casinha/rampa.png);
+}
+.texto {
+    margin: 10%;
+}
+
+@media(max-width: 700px){
+    .containerC{
+        display: block;
+    }
+    .casinha{
+        aspect-ratio: 5/7;
+        background-attachment: local;
+        background-size: cover;
+        background-position: 0%;
+        width: 100%;
+        background-image: url("../img/casinha/casinha.vt.jpg");
+    }
+    .infos{
+        width: 100%;
+    }
+}

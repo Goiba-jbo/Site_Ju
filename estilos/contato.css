@@ -1,0 +1,45 @@
+.containerC{
+    margin-top: 200px;
+    display:flex;
+    justify-content: center;
+}
+.contatos{
+    width: 60%;
+}
+.contatos a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.contatos a *{
+    transition: 0.3s;
+}
+.contatos a img{
+    width: 50px;
+}
+.contatos a h5{
+    word-wrap:break-word;
+    word-wrap: break-word;
+}
+.contatos a div{
+    background-color: #7f1cb4;
+    border-radius: 2px;
+    height: 0px;
+    opacity:0.6;
+}
+.contatos a:hover{
+    img{
+        opacity:0.6;
+    }
+    div{
+        height: 5px;
+    }
+    h5{
+        opacity:0.6;
+    }
+}
+@media(max-width: 700px){
+    
+}

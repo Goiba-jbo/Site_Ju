@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+}
+.imagens div:not(.img2, .texto){
+    width: 100%;
+    aspect-ratio: 5/4;
+    background-size: cover;
+}
+.img1{
+    background-image: url("../img/bodas/bodas.png"); /*não funcionaaaaaaaa*/
+    background-size: 10%;
+    background-position: 50%;
+}
+.img2{
+    background-image: url("../img/bodas/materiais.png");
+    background-size: 10%;
+    width: 100%;
+    aspect-ratio: 319/144;
+    background-size: cover;
+}
+.texto{
+    width: 90%;
+    padding-inline: 5%;
+    margin-top: 150px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.texto section{
+    width: 35%;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.texto p{
+    text-align: justify;
+}
+
+
+@media(max-width: 700px){
+   
+    .imagens div{
+        aspect-ratio: 3/4!important;
+    }
+    .img1{
+        background-image: url(../img/bodas/bodasMobile.png);
+    }
+    .img2{
+        background-image: url(../img/bodas/cartaz.heif);
+    }
+    .img3{
+        background-image: url("../img/bodas/etiqueta.heif");
+    }
+    .img4{
+        background-image: url("../img/bodas/70anos.jpg");
+    }
+}

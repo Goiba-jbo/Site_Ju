@@ -1,0 +1,86 @@
+body{
+    padding: 0px;
+}
+.imagens div{
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+}
+.img1{
+    background-image: url("../img/broa/DesignMarca.BroaCafe.png");
+}
+.img2{
+    background-image: url("../img/broa/mockups_PC.png");
+}
+.img3{
+    background-image: url("../img/broa/17.png");
+}
+.img4{
+    background-image: url("../img/broa/18.png");
+}
+.img5{
+    background-image: url("../img/broa/19.png");
+}
+.img6{
+    background-image: url("../img/broa/20.png");
+}
+.img7{
+    background-image: url("../img/broa/21.png");
+}
+.img8{
+    background-image: url("../img/broa/22.png");
+}
+.img9{
+    display: none;
+}
+.texto{
+    margin-inline: 5%;
+    margin-top: 150px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.texto section{
+    width: 35%;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.texto p{
+    text-align: justify;
+}
+
+
+@media(max-width: 700px){
+    .imagens div{
+        aspect-ratio: 9/16;
+    }
+    .img1{
+        background-image: url(../img/broa/BroaCafeMobile.png);
+        background-size: 10px;
+    }
+    .img2{
+        background-image: url("../img/broa/16cell.png");
+    }
+    .img3{
+        background-image: url("../img/broa/17cell.png");
+    }
+    .img4{
+        background-image: url("../img/broa/18cell.png");
+    }
+    .img5{
+        background-image: url("../img/broa/19cell.png");
+    }
+    .img6{
+        background-image: url("../img/broa/20cell.png");
+    }
+    .img7{
+        background-image: url("../img/broa/21.1cell.png");
+    }
+    .img8{
+        background-image: url("../img/broa/21.2cell.png");
+    }
+    .img9{
+        display: block;
+        background-image: url("../img/broa/22cell.png");
+    }
+}

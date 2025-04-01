@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+}
+.imagens div{
+    width: 100%;
+    aspect-ratio: 13/8;
+    background-size: cover;
+}
+.img1{
+    background-image: url("../img/garrafa/termica2.png");
+    
+}
+.img2{
+    background-image: url("../img/garrafa/geracao.jpg");
+}
+.img3{
+    background-image: url("../img/garrafa/termica1.png");
+}
+
+.texto{
+    width: 90%;
+    margin-top: 150px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.texto section{
+    width: 35%;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.texto p{
+    text-align: justify;
+}
+
+
+@media(max-width: 700px){
+    .imagens div{
+        aspect-ratio: 9/16;
+    }
+    
+    .img1{
+        background-image: url("../img/garrafa/termicaMobile.png")
+    }
+        .img2{
+        background-image: url("../img/garrafa/tecnicoMobile.png");
+    }
+    .img3{
+        background-image: url("../img/garrafa/geracaoMobile.png");
+    }
+}
