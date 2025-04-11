@@ -70,32 +70,32 @@
     }
 }
 .projeto1{
-    width: 605px; 
-    height: 425px;
+    width: 47%; 
+    height: 500%;
     background-image: url("../img/broa/BroaCafe.png");
-    background-size: 1100px;
-    background-position: -250px -90px;
+    background-size: 170%;
+    background-position: center;
 }
 .projeto2{
-    width: 605px; 
-    height: 425px;
+    width: 47%; 
+    height: 500%;
     background-image: url("../img/casinha/casinha.hz.png"); 
-    background-size: 950px;
-    background-position: -175px -30px;
+    background-size: 70%;
+    background-position: center;
 }
 .projeto3{
-    width: 605px; 
-    height: 425px;
+    width: 47%; 
+    height: 500%;
     background-image: url("../img/bodas/bodas.png");
-    background-size: 550px;
-    background-position: 25px -55px;
+    background-size: 90%;
+    background-position:center;
 }
 .projeto4{
-    width: 605px; 
-    height: 425px;
+    width: 47%; 
+    height: 500%;
     background-image: url("../img/garrafa/termica.png");
-    background-size: 800px;
-    background-position: -100px -5px;
+    background-size: 70%;
+    background-position: center;
 }
 
 @media(max-width: 700px){
@@ -108,14 +108,14 @@
         margin-inline: 5%;
     }
     .seta{
-        margin-top: 90px;
+        margin-top: 12%;
     }
     .projetos{
-        justify-content: center;
-         margin-top: 40px; /*altura dos negocio*/
+         justify-content: center;
+         margin-top: 10%; /*altura dos negocio*/
     }
     .projeto1{ 
-        background-size: 220%;
+        background-size: 500%;
         background-position: center;
     }
     .projeto2{

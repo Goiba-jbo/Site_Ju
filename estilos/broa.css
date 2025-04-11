@@ -34,14 +34,14 @@ body{
     display: none;
 }
 .texto{
-    margin-inline: 5%;
+    margin-inline: 3%;
     margin-top: 150px;
     display:flex;
     justify-content:space-around;
     flex-wrap: wrap;
 }
 .texto section{
-    width: 35%;
+    width: 70%;
     min-width: 200px;
     margin-bottom: 50px;
 }
