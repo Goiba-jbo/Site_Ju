@@ -27,8 +27,8 @@ body{
     flex-wrap: wrap;
 }
 .texto section{
-    width: 70%;
-    min-width: 260px;
+    width: 35%;
+    min-width: 200px;
     margin-bottom: 50px;
 }
 .texto p{

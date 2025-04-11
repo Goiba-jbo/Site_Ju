@@ -1,10 +1,5 @@
 AJUDA:
 
-a altura dos projetos no home pc nem mobile não tá alterando
-
-o home do celular quebrou quando fui tentar ajustar os tamanhos
-
-
 contatos: mobile
 
 
@@ -27,6 +22,4 @@ EU:
  
  ajustar imagens home
 
- mais imagem de fundo (2/5)
-
- corrigir carregamento lento imagens
+ mais imagem de fundo==´[
