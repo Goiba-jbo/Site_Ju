@@ -9,7 +9,8 @@ body{
     width: 50%;
     background: url(../img/casinha/casinha.hz.png);
     background-size: 110%;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
     background-position-x: 325%;
     background-position-y: 20%;
 }

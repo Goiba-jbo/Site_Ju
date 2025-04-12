@@ -20,8 +20,9 @@
     width: 50px;
 }
 .contatos a h5{
-    word-wrap:break-word;
-    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 .contatos a div{
     background-color: #7f1cb4;
@@ -40,6 +41,8 @@
         opacity:0.6;
     }
 }
-@media(max-width: 700px){
-    
+@media(max-width: 500px){
+    .contatos{
+        width: 90%;
+    }
 }
