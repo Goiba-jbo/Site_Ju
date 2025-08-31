@@ -6,8 +6,9 @@ body{
     aspect-ratio: 5/4;
     background-size: cover;
 }
+
 .img1{
-    background-image: url("../img/bodas/bodas.png"); /*não funcionaaaaaaaa*/
+    background-image: url("../img/bodas/bodas.png");
     background-size: 10%;
     background-position: 50%;
 }
@@ -18,12 +19,14 @@ body{
     aspect-ratio: 319/144;
     background-size: cover;
 }
+.img3, .img4{
+    display: none;
+}
 .texto{
-    width: 90%;
-    padding-inline: 5%;
+    width: 100%;
     margin-top: 150px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 .texto section{
@@ -34,12 +37,16 @@ body{
 .texto p{
     text-align: justify;
 }
-
-
 @media(max-width: 700px){
+
+    .texto section{
+        width: 80%;
+        margin-inline: 30px;
+    }
    
-    .imagens div{
+    .imagens div:not(.texto){
         aspect-ratio: 3/4!important;
+        display: block;
     }
     .img1{
         background-image: url(../img/bodas/bodasMobile.png);

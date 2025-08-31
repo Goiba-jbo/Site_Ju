@@ -4,11 +4,11 @@
     font-family: "Nunito";
 }
 body{
-    background-image: url("../img/textura_fundo.png");
     background-position-x: -3px;
     background-size: cover;
     padding-inline:5%;
 }
+
 header{
     backdrop-filter: blur(15px);
     background-color: hsla(279, 73%, 41%, 0.25);

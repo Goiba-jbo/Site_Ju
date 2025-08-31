@@ -6,7 +6,7 @@ fundo aleátorio
 
 blur menu mobile que não ta querendo funcionar
 
-rodapé mobile - cada página ta diferente e diminuir "editado"
+texto mobile diferente em cada página
 
 aquela frescura no texto do tutstuts
 
@@ -16,4 +16,4 @@ EU:
  
  ajustar imagens home
 
- mais imagem de fundo==´[
+ mais imagem de fundo==

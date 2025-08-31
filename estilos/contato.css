@@ -4,13 +4,13 @@
     justify-content: center;
 }
 .contatos{
-    width: 60%;
+    width: 50%;
 }
 .contatos a{
     display: flex;
     align-items: center;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: left;
     margin-bottom: 40px;
 }
 .contatos a *{
@@ -18,11 +18,11 @@
 }
 .contatos a img{
     width: 50px;
+    margin-right: 20px;
 }
 .contatos a h5{
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
 }
 .contatos a div{
     background-color: #7f1cb4;

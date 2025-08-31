@@ -34,10 +34,10 @@ body{
     display: none;
 }
 .texto{
-    margin-inline: 5%;
+    width: 100%;
     margin-top: 150px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 .texto section{
@@ -49,8 +49,11 @@ body{
     text-align: justify;
 }
 
-
 @media(max-width: 700px){
+    .texto section{
+        width: 80%;
+        margin-inline: 30px;
+    }
     .imagens div{
         aspect-ratio: 9/16;
     }

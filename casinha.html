@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="scripts/geral.js"></script>
+    <script src="scripts/casinha.js"></script>
 </head>
-<body>
+<body onload="mudar(); paralax()" id="fundo">
     <header>
         <div class="container">
             <h2><a href="index.html">Júlia Bessegato</a></h2>
@@ -22,9 +24,9 @@
                 <div class="item" id="port"><span>PORTIFÓLIO<img src="img/ÍCONES-setagrande.png"class="setaP"></span><div></div>
                     <ul class="port">
                         <a href="broa.html"><li>Broa Café</li></a>
-                            <a href="casinha.html"><li>Torre de dados</li></a>
-                            <a href="bodas.html"><li>Bodas de Vinho</li></a>
-                            <a href="garrafa.html"><li>Garrafa Térmica</li></a>
+                        <a href="casinha.html"><li>Torre de dados</li></a>
+                        <a href="bodas.html"><li>Bodas de Vinho</li></a>
+                        <a href="garrafa.html"><li>Garrafa Térmica</li></a>
                     </ul>
                 </div>
                 <a href="sobreMim.html" class="item">SOBRE MIM <div></div></a>
@@ -33,7 +35,7 @@
         </div>
     </header>
     <div class="containerC">
-        <div class="casinha"></div>
+        <div class="casinha" id="pImg"></div>
         <div class="infos">
             <div class="imgs">
                 <div class="img1"></div>
@@ -71,7 +73,7 @@
             <a href="https://www.linkedin.com/in/júlia-bessegato-de-oliveira-606597292/"><img src="img/ÍCONES-linkedin.png"></a>
         </div>
         <div class="editado">
-            Editado março 2025
+            Editado agosto 2025
         </div>
     </footer>
 </body>
