@@ -3,6 +3,9 @@
     color:white;
     font-family: "Nunito";
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-position-x: -3px;
     background-size: cover;

@@ -1,10 +1,11 @@
 function paralax(){
-    let pImg = document.getElementById("pImg");
+    const casinha = document.querySelector('.casinha');
 
     window.addEventListener('scroll',
         function(){
-            let valor = this.window.scrollY;
-            pImg.style.backgroundPositionY = valor * 0.7 + 'px';
+            let scroll = window.scrollY;
+
+            casinha.style.backgroundPositionY = scroll * 0.7 + 'px';
         }
     );
 }

@@ -17,3 +17,32 @@ EU:
  ajustar imagens home
 
  mais imagem de fundo==
+
+
+
+
+
+  <div class="unidade">
+                <h4>MídiaCarros</h4>
+                <ul><li>Período: julho 2025 – atualmente</li></ul>
+                <ol>
+                    <li>Criação de templates gráficos para redes sociais alinhados à identidade visual dos clientes do setor automobilístico </li>
+                    <li>Uso do sistema interno de criação de artes, incluindo relatório constante de bugs e contato com outros setores para entender demandas</li>
+                
+
+
+
+
+
+
+                     <h1>CURSOS E PALESTRAS</h1>
+            <div class="unidade">
+                <ul>
+                    <li> Palestra: Candido Portinari: do cafezal à ONU - 2025</li>
+                    <li> Curso: Consultoria de Imagem e Estilo - 2024</li>
+                    <li> Palestra: Semana Acadêmica Campus 8: Design com Propósito - 2023</li>
+                    <li> Curso: Papel artesanal - 2023</li>
+                    <li>Edição de imagem Oficina de Ilustração e Lambe-lambe - 2023</li>
+                    <li> Palestra: Padrão Disney: Saiba como Encantar seu Cliente - 2022</li>
+                </ul>
+            </div>

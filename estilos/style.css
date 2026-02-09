@@ -1,3 +1,10 @@
+body{
+    padding: 0;
+    
+}
+#sumir{
+    padding-inline: 5%;
+}
 .tuts{
     margin-top: 250px;
     display:flex;
@@ -24,6 +31,11 @@
     display: flex;
     justify-content: center;
     margin-top: 125px;
+}
+.seta button{
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 .seta img{
     width: 70px;
@@ -83,18 +95,36 @@
     background-size: 950px;
     background-position: center;
 }
+
 .projeto3{
+    width: 605px; 
+    height: 425px;
+    background-image: url("../img/mdc/mdc.png");
+    background-size: 620px;
+    background-position:center;
+}
+
+.projeto4{
+    width: 605px; 
+    height: 425px;
+    background-image: url("../img/garrafa/termica.png");
+    background-size: 850px;
+    background-position:center;
+}
+
+.projeto5{
     width: 605px; 
     height: 425px;
     background-image: url("../img/bodas/bodas.png");
     background-size: 550px;
     background-position: center;
 }
-.projeto4{
+
+.projeto6{
     width: 605px; 
     height: 425px;
-    background-image: url("../img/garrafa/termica.png");
-    background-size: 850px;
+    background-image: url("../img/moveis/moveis.png");
+    background-size: 600px;
     background-position:center;
 }
 

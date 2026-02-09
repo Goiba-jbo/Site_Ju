@@ -62,6 +62,13 @@ body{
     font-weight: 800;
     margin-bottom: 20px;
 }
+.palestras{
+    margin-bottom: 60px;
+}
+.palestras h2{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
 .curso h4{
     font-weight: 800;
 }
@@ -70,10 +77,14 @@ body{
 }
 .ExH h1 {
     font-weight: 800;
+    margin-top: 60px;
 }
 .unidade{
     margin-bottom: 35px;
     margin-top: 30px;
+}
+.ExH h1:first-child{
+    margin-top: 0px;
 }
 .unidade ol{
     margin-top: 30px;
